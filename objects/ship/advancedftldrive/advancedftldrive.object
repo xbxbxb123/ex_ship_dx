@@ -1,0 +1,54 @@
+{
+  "objectName" : "advancedFTLdrive",
+  "colonyTags" : [],
+  "scannable" : true,
+  "rarity" : "Common",
+  "description" : "Warps space to propel a ship, removing the need for external boosters.",
+  "shortdescription" : "Experimental FTL Drive",
+  "race" : "generic",
+
+  "apexDescription" : "An experimental FTL drive that doesn't need any boosters.",
+  "avianDescription" : "This resembles Avian Crystal technology.",
+  "floranDescription" : "Ssstrange rock push sship.",
+  "glitchDescription" : "Curious. This is a new technology.",
+  "humanDescription" : "Ooh, one of those fancy new space warping drives.",
+  "hylotlDescription" : "An elegant form of propulsion.",
+
+  "category" : "light",
+  "lightColor" : [96, 16, 96],
+  "pointLight" : true,
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.2,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "ftldriveicon.png",
+  "orientations" : [
+    {
+      "image" : "advancedftldrive:on.1",
+      "imagePosition" : [0, 0],
+      "fullbright" : false,
+
+      "spaces" : [ [0,0],[0,1],[0,2],[0,3],[1,0],[1,1],[1,2],[1,3],[2,0],[2,1],[2,2],[2,3] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/ship/advancedftldrive/ftldrive.animation",
+  "animationParts" : {
+    "booster" : "advancedFTLdrive.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "soundEffect" : "/sfx/objects/smallboosterflame.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : ["/objects/ship/advancedftldrive/boosterflamecopy.lua"],
+  "scriptDelta" : 10,
+
+  "flyingBoosterStates" : {
+    "none" : "off",
+    "disembarking" : "on",
+    "warp" : "on",
+    "arriving" : "off"
+  }
+}

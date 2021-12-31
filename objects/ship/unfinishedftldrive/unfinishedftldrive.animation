@@ -1,0 +1,45 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "boosterState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 2,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "on" : {
+            "frames" : 2,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "booster" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : false
+        },
+
+        "partStates" : {
+          "boosterState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            },
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

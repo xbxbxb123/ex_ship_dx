@@ -1,0 +1,23 @@
+//This patch would be more elegant if it were functional. It replaces the vanilla items because it overides the indecies they occupy normally.
+[
+ { "op" : "add",
+   "path" : "/exshipbonus",
+   "value" : [
+    [0, {
+      "fill" : [
+        {"item" : [ "mocha", 1 ]},
+        {"item" : ["weldershelmethead", 1 ]},
+        {"item" : [ "hazard", 100 ]},
+        {"item" : [ "outpostplatform", 100 ]}
+      ]
+    }]
+  ]
+ },
+ 
+ { "op" : "add",
+   "path" : "/starterTreasure/0/1/fill",
+   "value" : [ 
+     {"pool" : "exshipbonus" } 
+	 ]
+ }
+]

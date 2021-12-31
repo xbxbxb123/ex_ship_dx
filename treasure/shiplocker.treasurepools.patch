@@ -1,0 +1,43 @@
+//Auto generated original. Dashes are the next available index in array
+[
+    {
+        "op": "add",
+        "path": "/starterTreasure/0/1/fill/-",
+        "value": {
+            "item": [
+                "mocha",
+                1
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/starterTreasure/0/1/fill/-",
+        "value": {
+            "item": [
+                "weldershelmethead",
+                1
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/starterTreasure/0/1/fill/-",
+        "value": {
+            "item": [
+                "hazard",
+                100
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/starterTreasure/0/1/fill/-",
+        "value": {
+            "item": [
+                "outpostplatform",
+                100
+            ]
+        }
+    }
+]

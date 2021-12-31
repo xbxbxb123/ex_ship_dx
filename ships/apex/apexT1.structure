@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "genericBoxShipDamaged.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "genericBoxShipDamaged.png",
+      "position" : [0, 0]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "genericShipBlocksT1.png"
+}
