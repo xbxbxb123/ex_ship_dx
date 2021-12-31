@@ -1,0 +1,94 @@
+[
+	[
+		// Change the ship for the vanilla races to the expandable ship dx
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/apex",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/avian",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/floran",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/glitch",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/human",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/hylotl",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/novakid",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		// Define the treasurepools for the vanilla races
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList",
+			"value" : {
+				"default" : "starterTreasure",
+				"apex" : "apexStarterTreasure",
+				"avian" : "avianStarterTreasure",
+				"floran" : "floranStarterTreasure",
+				"glitch" : "glitchStarterTreasure",
+				"human" : "humanStarterTreasure",
+				"hylotl" : "hylotlStarterTreasure",
+				"novakid" : "novakidStarterTreasure"
+			}
+		},
+		// Define the ship pets for the vanilla races
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList",
+			"value" : {
+				"default" : "snugget",		//The default is snugget since they are the best ship pet
+				"apex" : "petweasel",
+				"avian" : "petbunny",
+				"floran" : "petsnake",
+				"glitch" : "piglett",
+				"human" : "petcat",
+				"hylotl" : "crasberry",
+				"novakid" : "snugget"
+			}
+		}
+	],
+	
+	// Example race patch (replace hubsnugget with the races name, hubsnuggetStarterTreasure with the name of the treasurepool and 
+	// hubsnuggetpetperson with the name of the races ship pet (if the treasure pool or ship isn't defined the default one is used))
+	[
+		{
+			"op" : "test",
+			"path" : "/speciesShips/hubsnugget"
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/hubsnugget",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList/hubsnugget",
+			"value" : "hubsnuggetStarterTreasure"
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList/hubsnugget",
+			"value" : "hubsnuggetpetperson"
+		}
+	]
+]
