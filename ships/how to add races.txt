@@ -1,6 +1,0 @@
-To make modded races use this ship, copy any of the race folders here. 
-Then rename the folder and each of the files that have the species name in it to whatever the modded race's name is. 
-Finally, replace the name of the treasure pool in the blockKey.config file to whatever the starter treasure for that race is named. 
-If the modded race uses the same format that vanilla does, then this should work.
-There is definitely some way to automate this process, or some very complex way to make it automatically work for all races, but I have no idea how.
-Oh yeah, if you don't know already, you should do this by making a new mod with the same file structure as this one and putting the modified copies there.
