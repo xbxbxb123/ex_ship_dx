@@ -1,0 +1,60 @@
+{
+  "objectName" : "flushlocker",
+  "colonyTags" : ["industrial","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A locker that fits flush into a wall.",
+  "shortdescription" : "F. Wall Locker",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 200,
+  "lightColor" : [16, 36, 20],
+
+  "apexDescription" : "Whose locker was this, I wonder?",
+  "avianDescription" : "I wonder if I could fit in this locker.",
+  "floranDescription" : "Floran wonders what'sss inside locker.",
+  "glitchDescription" : "Neutral. A locker, for locking up things you want to lock away.",
+  "humanDescription" : "Ah, this reminds me of high school.",
+  "hylotlDescription" : "A basic locker.",
+  "novakidDescription" : "Just a locker, stuck into the wall.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "flushlocker.png:<color>", "fullbright" : true }, { "image" : "flushlockerlit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    },
+    {
+      "imageLayers" : [ { "image" : "flushlocker.png:<color>", "fullbright" : true }, { "image" : "flushlockerlit.png:<color>" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

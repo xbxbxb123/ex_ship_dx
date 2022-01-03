@@ -1,0 +1,13 @@
+{
+  "exshiptreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : [ "mocha", 1 ]},
+        {"item" : [ "weldershelmethead", 1 ]},
+        {"item" : [ "protectorateflyer", 1 ]},
+        {"item" : [ "hazard", 100 ]},
+        {"item" : [ "outpostplatform", 100 ]}
+      ]
+    }]
+  ]
+}
