@@ -1,0 +1,12 @@
+{
+  "itemName" : "titaniumglass",
+  "price" : 25,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "titaniumglass_item.png",
+  "shortdescription" : "Reinforced Glass",
+  "description" : "Glass that has been strengthened with titanium.",
+
+  "materialId" : 7401,
+  "learnBlueprintsOnPickup" : [ "titaniumglass" ]
+}

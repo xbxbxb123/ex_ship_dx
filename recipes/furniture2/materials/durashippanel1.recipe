@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "durashippanel",
+    "count" : 25
+  },
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

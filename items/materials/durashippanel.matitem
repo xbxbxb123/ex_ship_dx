@@ -1,0 +1,12 @@
+{
+  "itemName" : "durashippanel",
+  "price" : 25,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "durashippanel_item.png",
+  "shortdescription" : "Durasteel Panel",
+  "description" : "Rugged panels suitable for a spaceship or station.",
+
+  "materialId" : 7400,
+  "learnBlueprintsOnPickup" : [ "durashippanel" ]
+}

@@ -5,8 +5,10 @@
         {"item" : [ "mocha", 1 ]},
         {"item" : [ "weldershelmethead", 1 ]},
         {"item" : [ "protectorateflyer", 1 ]},
-        {"item" : [ "hazard", 100 ]},
-        {"item" : [ "outpostplatform", 100 ]}
+        {"item" : [ "outpostplatform", 100 ]},
+        {"item" : [ "durashippanel", 100 ]},
+        {"item" : [ "titaniumglass", 100 ]},
+        {"item" : [ "hazard", 100 ]}
       ]
     }]
   ]

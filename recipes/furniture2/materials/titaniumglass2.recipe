@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 100 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "titaniumglass",
+    "count" : 100
+  },
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 7400,
+  "materialName" : "durashippanel",
+  "particleColor" : [24, 24, 96, 255],
+  "itemDrop" : "durashippanel",
+
+  "description" : "Tough durasteel plating suitable for a ship or space station.",
+  "glitchDescription" : "Impressed. These metal plates look durable and expensive.",
+  "floranDescription" : "Sstrong metal. Floran likes.",
+  "novakidDescription" : "This metal panel is lookin' pretty tough.",
+  "shortdescription" : "Durasteel Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "durashippanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}
