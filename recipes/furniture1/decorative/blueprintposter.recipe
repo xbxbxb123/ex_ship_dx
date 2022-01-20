@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "blueprintposter",
+    "count" : 1
+  },
+  "groups"  : [ "craftingfurniture", "decorative", "all" ]
+}

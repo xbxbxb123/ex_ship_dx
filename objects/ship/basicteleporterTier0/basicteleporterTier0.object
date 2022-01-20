@@ -9,13 +9,13 @@
   "shortdescription" : "Teleporter",
   "race" : "generic",
 
-  "apexDescription" : "The ship's teleporter. I need to power it up.",
+  "apexDescription" : "The ship's teleporter. The warp glass has been dyed green. An aesthetic choice?",
   "avianDescription" : "The teleporter! If only this one was powered up.",
-  "floranDescription" : "Ship teleporter. This one dead.",
+  "floranDescription" : "Ship teleporter. This one dead. Also green like floran?",
   "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
   "humanDescription" : "The teleporter! Too bad it isn't powered up.",
-  "hylotlDescription" : "This teleporter is off.",
-  "novakidDescription" : "Ship's teleporter. I need to power her up!",
+  "hylotlDescription" : "This teleporter is off. The warp platform has been dyed a nice green.",
+  "novakidDescription" : "Ship's teleporter. The platform looks like the bottom of a bottle.",
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,

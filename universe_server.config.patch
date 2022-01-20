@@ -91,5 +91,89 @@
 			"path" : "/esdShipPetList/hubsnugget",
 			"value" : "hubsnuggetpetperson"
 		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/speciesShips/avali"
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/avali",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList/avali",
+			"value" : "avaliStarterTreasure"
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList/avali",
+			"value" : "avalicleaningbot"
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/speciesShips/felin"
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/felin",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList/felin",
+			"value" : "felinStarterTreasure"
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList/felin",
+			"value" : "tentillum"
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/speciesShips/windy"
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/windy",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList/windy",
+			"value" : "windyStarterTreasure"
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList/windy",
+			"value" : "windypet"
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/speciesShips/scyphojel"
+		},
+		{
+			"op" : "replace",
+			"path" : "/speciesShips/scyphojel",
+			"value" : ["/ships/generic/genericT0.structure", "/ships/generic/genericT1.structure", "/ships/generic/genericT2.structure", "/ships/generic/genericT3.structure", "/ships/generic/genericT4.structure", "/ships/generic/genericT5.structure", "/ships/generic/genericT6.structure", "/ships/generic/genericT7.structure", "/ships/generic/genericT8.structure"]
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipTreasureList/scyphojel",
+			"value" : "scyphojelStarterTreasure"
+		},
+		{
+			"op" : "add",
+			"path" : "/esdShipPetList/scyphojel",
+			"value" : "petbunny"
+		}
 	]
 ]

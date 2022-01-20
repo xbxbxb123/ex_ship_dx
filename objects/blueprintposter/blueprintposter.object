@@ -1,0 +1,35 @@
+{
+  "objectName" : "blueprintposter",
+  "colonyTags" : ["science","knowledge"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "Blueprints for various components of your ship.",
+  "shortdescription" : "Experimental Ship Blueprints",
+  "race" : "generic",
+
+  "apexDescription" : "Blueprints for experimental ship parts matching my ship.",
+  "avianDescription" : "These drawings look like they're about my ship.",
+  "floranDescription" : "Lookss like floranss' ship.",
+  "glitchDescription" : "Observant. These diagrams match my ship.",
+  "humanDescription" : "These parts look like they're meant for my ship.",
+  "hylotlDescription" : "Intricate drawings of various non-standard ship components.",
+  "novakidDescription" : "Looks like some plans for my ship.",
+
+
+  "inventoryIcon" : "blueprintpostericon.png",
+  "learnBlueprintsOnPickup" : [ "blueprintposter", "durashippanel", "titaniumglass", "basicshipdoor", "basicshiphatch", "basicshiplocker" ],
+
+  "orientations" : [
+    {
+      "image" : "blueprintposter.png:<color>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

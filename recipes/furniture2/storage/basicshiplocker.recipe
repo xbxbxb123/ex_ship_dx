@@ -4,7 +4,7 @@
     { "item" : "silverbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "basicstoragelocker",
+    "item" : "basicshiplocker",
     "count" : 1
   },
   "groups" : [ "craftingfurniture2", "storage", "all" ]

@@ -44,24 +44,22 @@
   ],
   "scriptDelta" : 20,
   "shipPetType" : "petcat",
-  "spawnOffset" : [2, -1],
+  "spawnOffset" : [1, -1],
 
   "chatPortrait" : "/ai/portraits/humanportrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
-      [ "Rebooting... Error: user data corrupted. Registering new profile: Captain.", "/ai/portraits/humanportrait.png:unique.1" ],
-      [ "Loading Ship-based Artificial Intelligence Lattice...", "/ai/portraits/humanportrait.png:unique.1" ],
-      [ "Personality settings load failed. Backup check in progress. Resuming program.", "/ai/portraits/humanportrait.png:unique.1" ],
-      [ "I am SAIL. Directives: Manage ship system maintainance and advise captain.", "/ai/portraits/humanportrait.png:talk.0" ],
-      [ "Boot conditions: Emergency. Assessment: Earth destroyed in unprecedented event.", "/ai/portraits/humanportrait.png:talk.1" ],
+      [ "Patching Personality and User profile with new data...", "/ai/portraits/humanportrait.png:unique.1" ],
+      [ "SAIL Directives: Manage ship system maintainance and advise captain.", "/ai/portraits/humanportrait.png:talk.0" ],
+      [ "Boot Conditions: Emergency. Assessment: Earth destroyed in unprecedented event.", "/ai/portraits/humanportrait.png:talk.1" ],
       [ "Ship status: moderate damage. Hatches blocked. Check console for more information.", "/ai/portraits/humanportrait.png:talk.0" ],
       [ "Location: Orbit of uncharted habitable planet. Reccomendation: Beam down and search for resources.", "/ai/portraits/humanportrait.png:talk.1" ],
-      [ "Critical information delivered. Reloading Personality settings...", "/ai/portraits/humanportrait.png:talk.0" ]
+      [ "Critical information delivered. Resuming system maintenance.", "/ai/portraits/humanportrait.png:talk.0" ]
     ],
     "wakePlayer" : [
-      [ "System is down, please reboot.", "/ai/portraits/humanportrait.png:unique.1"],
+      [ "Data corrupted, please reboot.", "/ai/portraits/humanportrait.png:unique.1"],
       [ "Interact to initiate reboot.", "/ai/portraits/humanportrait.png:unique.1"],
-      [ "Reboot required to continue.", "/ai/portraits/humanportrait.png:unique.1"]
+      [ "Awaiting User input.", "/ai/portraits/humanportrait.png:unique.1"]
     ]
   },
 
