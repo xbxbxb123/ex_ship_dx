@@ -1,10 +1,11 @@
 {
   "author" : "Ben",
-  "description" : "Replaces all vanilla player ships with a ship that can be built off of, inspired by the Expandable Box Ship mod.",
+  "description" : "Replaces all vanilla player ships with a ship that can be built off of, inspired by the Expandable Box Ship mod. Won't work without my other mod xb_materials!",
   "friendlyName" : "Expandable Ship DX",
   "link" : "steam://url/CommunityFilePage/2690592867",
   "name" : "Expandable Ship DX",
   "steamContentId" : "2690592867",
   "tags" : "Crafting and Building|Ships|Furniture and Objects",
-  "version" : "1.1"
+  "version" : "1.1",
+  "includes" : ["xb_materials"]
 }
