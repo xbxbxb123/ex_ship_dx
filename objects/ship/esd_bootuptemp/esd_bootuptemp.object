@@ -1,0 +1,24 @@
+{
+  "objectName" : "esd_bootuptemp",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Handles giving a ship its treasure and pet",
+  "shortdescription" : "Bootup Temp",
+  "race" : "human",
+
+  "inventoryIcon" : "esd_bootuptempicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "esd_bootuptemp.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1
+    }
+  ],
+  "unbreakable" : true,
+  "smashOnBreak" : true,
+  "scripts" : ["esd_bootuptemp.lua"]
+}

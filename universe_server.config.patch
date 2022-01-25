@@ -70,7 +70,7 @@
 	],
 	
 	// Example race patch (replace hubsnugget with the races name, hubsnuggetStarterTreasure with the name of the treasurepool and 
-	// hubsnuggetpetperson with the name of the races ship pet (if the treasure pool or ship isn't defined the default one is used))
+	// snugget with the name of the races ship pet (if the treasure pool or ship isn't defined the default one is used))
 	[
 		{
 			"op" : "test",
@@ -89,9 +89,10 @@
 		{
 			"op" : "add",
 			"path" : "/esdShipPetList/hubsnugget",
-			"value" : "hubsnuggetpetperson"
+			"value" : "snugget"
 		}
 	],
+	
 	[
 		{
 			"op" : "test",
