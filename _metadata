@@ -1,6 +1,6 @@
 {
   "author" : "Ben, Hubnester, and TeksFox",
-  "description" : "Replaces all vanilla player ships with a ship that can be built off of, inspired by the Expandable Box Ship mod. Won't work without my other mod xb_materials!\nSupported modded races:\nSnugget\nAvali\nFelin\nWindy\nScyphojel\nOrcana\nElithian Races (5 races)\n\nCredits:\nHubnester: Script to allow for much easier mod support\nTeksFox: Several sprites",
+  "description" : "Replaces all vanilla player ships with a ship that can be built off of, inspired by the Expandable Box Ship mod. Won't work without my other mod xb_materials!\nSupported modded races:\nSnugget\nAvali\nFelin\nWindy\nScyphojel\nOrcana\nElithian Races (5 races)\nArachne\nEveris\n\nCredits:\nHubnester: Script to allow for much easier mod support\nTeksFox: Several sprites",
   "friendlyName" : "Expandable Ship DX",
   "includes" : ["xb_materials"],
   "link" : "steam://url/CommunityFilePage/2690592867",
